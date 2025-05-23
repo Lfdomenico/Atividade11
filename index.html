@@ -2,24 +2,30 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>HTML e CSS: Classes, posicionamento e Flexbox</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML e CSS: Classes, Posicionamento e Flexbox</title>
+  
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <div class="decor"></div>
-    <h1>HTML e <span>CSS:</span></h1>
+  <main class="container" role="main">
+    
+    <div aria-hidden="true"></div>
+
+    <h1>HTML e CSS:</h1>
     <p>Classes, posicionamento e Flexbox</p>
 
-    <div class="icon">
-      <span class="icon-label">FRONT-END</span>
+    <div class="icone" aria-label="Área de atuação: Front-End">
+      <span class="icone-label">FRONT-END</span>
     </div>
 
-    <div class="line"></div>
+    <div class="linha" aria-hidden="true"></div>
+    <a href="sobre.html" class="link" aria-label="Saiba mais sobre Luiz Fernando">
+      Saiba mais
+    </a>
 
-    <!-- Botão/link para a segunda página -->
-    <a href="sobre.html" class="link-btn">Conheça a Desenvolvedora</a>
-  </div>
+  </main>
 </body>
 </html>
