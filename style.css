@@ -1,105 +1,83 @@
 body {
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-    background: linear-gradient(to bottom, #0a1a2f, #000);
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    text-align: center;
-  }
-  
-  .container {
-    max-width: 800px;
-    padding: 2rem;
-    position: relative;
-  }
-  
-  .decor {
-    height: 4px;
-    width: 80px;
-    background: repeating-linear-gradient(
-      to right,
-      #38bdf8,
-      #38bdf8 2px,
-      transparent 2px,
-      transparent 6px
-    );
-    margin: 0 auto 20px;
-  }
-  
-  h1 {
-    font-size: 2.5rem;
-    color: #38bdf8;
-  }
-  
-  h1 span {
-    font-weight: 700;
-  }
-  
-  p {
-    font-size: 1.5rem;
-    margin: 1rem 0 2rem;
-  }
-  
-  .icon {
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-color: #38bdf8;
-    padding: 1rem;
-    border-radius: 8px;
-  }
-  
-  .icon::before {
-    content: "*";
-    font-size: 2rem;
-    color: #000;
-  }
-  
-  .icon-label {
-    display: block;
-    font-size: 0.8rem;
-    color: #000;
-    margin-top: 0.5rem;
-  }
-  
-  .line {
-    height: 2px;
-    background-color: #fff;
-    width: 70%;
-    margin: 2rem auto 0;
-    position: relative;
-    border-radius: 10px;
-  }
-  
-  .line::after {
-    content: '';
-    width: 10px;
-    height: 10px;
-    background-color: #fff;
-    border-radius: 50%;
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-  }
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #0a0f1c;
+  color: #ffffff;
+}
 
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 80px 40px;
+  text-align: left;
+  position: relative;
+}
 
-  .link-btn {
-    display: inline-block;
-    margin-top: 2rem;
-    padding: 0.75rem 1.5rem;
-    background-color: #38bdf8;
-    color: #000;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 8px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .link-btn:hover {
-    background-color: #0ea5e9;
-  }
-  
+h1 {
+  font-size: 4rem;
+  margin: 0;
+  color: #00bfff;
+}
+
+h1 span {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+p {
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+.icone {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  background-color: #00bfff;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.icone-label {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.linha {
+  margin-top: 100px;
+  border-bottom: 3px solid #ffffff;
+  width: 70%;
+  height: 24px;
+  position: relative;
+}
+
+.linha::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+.link {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 14px 28px;
+  background-color: #00bfff;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.link:hover {
+  background-color: #00a0cc;
+}
